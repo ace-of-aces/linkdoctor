@@ -1,0 +1,9 @@
+{
+  "extends": ["oclif", "oclif-typescript", "prettier"],
+  // disable perfectionist/sort-objects
+  "rules": {
+    "perfectionist/sort-objects": "off",
+    "unicorn/no-array-callback-reference": "off",
+    "unicorn/prefer-number-properties": "off"
+  }
+}
